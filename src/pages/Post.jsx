@@ -38,7 +38,7 @@ export default function Post() {
                     <img
                         src={appwriteService.getFilePreview(post.featuredImage)}
                         alt={post.title}
-                        className="rounded-xl w-full max-w-2xl object-cover transition-transform duration-300 hover:scale-105"
+                        className="rounded-xl w-[350px] max-w-2xl object-cover transition-transform duration-300 hover:scale-105"
                     />
 
                     {isAuthor && (
