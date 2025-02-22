@@ -87,7 +87,7 @@ export default function PostForm({ post }) {
                     label="Featured Image :"
                     type="file"
                     className="mb-4 glassy-input"
-                    accept="image/png, image/jpg, image/jpeg, image/gif"
+                    accept="image/png, image/jpg, image/jpeg, image/gif, image/webp"
                     {...register("image", { required: !post })}
                 />
                 {post && (
